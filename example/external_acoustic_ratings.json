@@ -1,0 +1,42 @@
+{
+  "n": {
+    "day": 62,
+    "night": 55,
+    "spectrumAdjustmentType": "ctr"
+  },
+  "ne": {
+    "day": 62,
+    "night": 55,
+    "spectrumAdjustmentType": "ctr"
+  },
+  "e": {
+    "day": 0,
+    "night": 0,
+    "spectrumAdjustmentType": "c"
+  },
+  "se": {
+    "day": 0,
+    "night": 0,
+    "spectrumAdjustmentType": "c"
+  },
+  "s": {
+    "day": 0,
+    "night": 0,
+    "spectrumAdjustmentType": "c"
+  },
+  "sw": {
+    "day": 0,
+    "night": 0,
+    "spectrumAdjustmentType": "c"
+  },
+  "w": {
+    "day": 0,
+    "night": 0,
+    "spectrumAdjustmentType": "c"
+  },
+  "nw": {
+    "day": 0,
+    "night": 0,
+    "spectrumAdjustmentType": "c"
+  }
+}
