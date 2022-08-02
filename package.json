@@ -1,0 +1,38 @@
+{
+  "name": "@vyzn-tech/acoustic-rating-cli",
+  "private": false,
+  "version": "0.0.1",
+  "description": "",
+  "main": "src/acoustic-rating-cli.js",
+  "author": "vyzn-tech",
+  "license": "MIT",
+  "scripts": {
+    "format": "prettier --write \"src/**/*.js\" \"test/**/*.js\"",
+    "lint": "eslint \"{src,test}/**/*.js\" --fix",
+    "lint-no-fix": "eslint \"{src,test}/**/*.js\""
+  },
+  "bugs": {
+    "url": "https://github.com/vyzn-tech/acoustic-rating-cli/issues"
+  },
+  "homepage": "https://github.com/vyzn-tech/acoustic-rating-cli#readme",
+  "dependencies": {
+    "@vyzn-tech/lib-acoustic-rating": "^0.0.5",
+    "commander": "^9.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.1",
+    "jest": "^27.3.0",
+    "prettier": "^2.4.1"
+  },
+  "files": [
+    "src/**/*",
+    "README.md",
+    "LICENSE.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vyzn-tech/acoustic-rating-cli"
+  }
+}
