@@ -16,7 +16,7 @@
   },
   "homepage": "https://github.com/vyzn-tech/acoustic-rating-cli#readme",
   "dependencies": {
-    "@vyzn-tech/lib-acoustic-rating": "^0.0.5",
+    "@vyzn-tech/lib-acoustic-rating": "^0.0.6",
     "commander": "^9.4.0"
   },
   "devDependencies": {
