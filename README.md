@@ -9,16 +9,24 @@ Use the package runner [npx](https://github.com/npm/npm/releases/tag/v5.2.0) to 
 $ npx @vyzn-tech/acoustic-rating-cli --help
 
 Options:
-  -i, --input-csv <path>                    path to input csv containing IFC-Data
+  -i, --input <path>                        path to the input file, either .ifc or .csv
   -eac, --external-acoustic-ratings <path>  path to json containing external-acoustic-ratings
-  -o, --output <path>                       path to output.csv
+  -o, --output <path>                       path to the output file, either .ifc or .csv
   -f, --force                               force overwrite existing file
   -V, --version                             output the version number
   -h, --help                                display help for command
 ```
 
 ```bash
-npx @vyzn-tech/acoustic-rating-cli --input-csv ./example/input.csv --external-acoustic-ratings ./example/external_acoustic_ratings.json --output test.json
+# Run using NPX
+npx @vyzn-tech/acoustic-rating-cli --input ./example/input.csv --external-acoustic-ratings ./example/external_acoustic_ratings.json --output test.json
+
+npx @vyzn-tech/acoustic-rating-cli --input ./example/SEESTRASSE.ifc --external-acoustic-ratings ./example/external_acoustic_ratings.json --output test.json
+
+# Run using node
+node src/acoustic-rating-cli.js --input ./example/input.csv --external-acoustic-ratings ./example/external_acoustic_ratings.json --output test.json
+
+node src/acoustic-rating-cli.js -input ./example/SEESTRASSE.ifc --external-acoustic-ratings example/external_acoustic_ratings.json --output test.json 
 ```
 
 ## Expected Input

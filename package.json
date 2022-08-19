@@ -16,7 +16,8 @@
   },
   "homepage": "https://github.com/vyzn-tech/acoustic-rating-cli#readme",
   "dependencies": {
-    "@vyzn-tech/lib-acoustic-rating": "^0.0.5",
+    "@bldrs-ai/ifclib": "^5.3.3",
+    "@vyzn-tech/lib-acoustic-rating": "^0.0.6",
     "commander": "^9.4.0"
   },
   "devDependencies": {
@@ -34,5 +35,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/vyzn-tech/acoustic-rating-cli"
-  }
+  },
+  "type": "module"
 }
