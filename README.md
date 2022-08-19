@@ -26,7 +26,7 @@ npx @vyzn-tech/acoustic-rating-cli --input ./example/SEESTRASSE.ifc --external-a
 # Run using node
 node src/acoustic-rating-cli.js --input ./example/input.csv --external-acoustic-ratings ./example/external_acoustic_ratings.json --output test.json
 
-node src/acoustic-rating-cli.js -input ./example/SEESTRASSE.ifc --external-acoustic-ratings example/external_acoustic_ratings.json --output test.json 
+node src/acoustic-rating-cli.js --input ./example/SEESTRASSE.ifc --external-acoustic-ratings example/external_acoustic_ratings.json --output test.json 
 ```
 
 ## Expected Input
